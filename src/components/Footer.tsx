@@ -12,9 +12,9 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Mail, href: 'dntbalasooriya@gmail.com', label: 'Email' },
+    { icon: Github, href: 'https://github.com/Dimalka-Balasooriya', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/dimalka-balasooriyab04430312', label: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:dntbalasooriya@gmail.com', label: 'Email' },
   ];
 
   return (
@@ -30,8 +30,8 @@ const Footer = () => {
               <span className="text-2xl font-bold gradient-text">Dimalka Nethmini</span>
             </div>
             <p className="text-muted-foreground max-w-md">
-            I’m Dimalka Balasooriya, an IT undergraduate at the University of Sri Jayewardenepura
-            following a BSc in Information Technology. 
+              Software Engineering Student passionate about creating beautiful, 
+              functional web applications with React.js and modern technologies.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (
