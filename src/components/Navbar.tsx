@@ -34,7 +34,7 @@ const Navbar = () => {
             <div className="p-2 rounded-lg bg-gradient-to-r from-primary to-accent text-primary-foreground transition-transform group-hover:scale-110">
               <Code2 className="h-5 w-5" />
             </div>
-            <span className="text-xl font-bold gradient-text">Dimalka Nethmini</span>
+            <span className="text-xl font-bold gradient-text">Dimalka Balasooriya</span>
           </Link>
 
           {/* Desktop Navigation */}

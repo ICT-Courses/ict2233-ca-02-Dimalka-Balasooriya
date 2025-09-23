@@ -1,4 +1,5 @@
 import Navbar from '@/components/Navbar';
+import Projects from '@/components/Projects';
 import Footer from '@/components/Footer';
 
 const ProjectsPage = () => {
@@ -6,10 +7,7 @@ const ProjectsPage = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
       <main className="pt-16">
-        <div className="max-w-3xl mx-auto px-4 py-20 text-center text-muted-foreground">
-          <h1 className="text-3xl font-bold mb-4">Projects</h1>
-          <p>Coming soon.</p>
-        </div>
+        <Projects />
       </main>
       <Footer />
     </div>
@@ -17,5 +15,3 @@ const ProjectsPage = () => {
 };
 
 export default ProjectsPage;
-
-

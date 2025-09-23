@@ -55,8 +55,8 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      value: '+94 71 234 5678',
-      href: 'tel:+94 71 234 5678'
+      value: '0711234567',
+      href: 'tel:+94711234567'
     },
     {
       icon: MapPin,
@@ -71,13 +71,13 @@ const Contact = () => {
       icon: Github,
       name: 'GitHub',
       href: 'https://github.com/Dimalka-Balasooriya',
-      username: 'Dimalka-Balasooriya'
+      username: '@dimalkanethmini'
     },
     {
       icon: Linkedin,
       name: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/dimalka-balasooriyab04430312',
-      username: 'in/dimalka-balasooriyab04430312'
+      href: 'https://www.linkedin.com/in/dimalka-balasooriyab04430312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      username: 'in/dimalka-nethmini'
     }
   ];
 

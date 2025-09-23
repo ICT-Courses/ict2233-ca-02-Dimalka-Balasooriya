@@ -4,35 +4,9 @@ import { Badge } from '@/components/ui/badge';
 import { Github, ExternalLink, Code2 } from 'lucide-react';
 
 const Projects = () => {
-  const projects = [
-    {
-      title: 'Café Management System',
-      description: 'WinForms-based system to manage café operations: CRUD menu items, order handling, and total calculation with a simple UI.',
-      image: '/placeholder.svg',
-      technologies: ['C#', 'WinForms', 'Visual Studio'],
-      githubUrl: 'https://github.com/ICT-Courses/application-development-ca1-DimalkaBalasooriya',
-      liveUrl: '#',
-      featured: true
-    },
-    {
-      title: 'EduNova Student Registration System',
-      description: 'Group project using Python, JavaScript, and MongoDB. Replaces manual enrollment with an online registration platform.',
-      image: '/placeholder.svg',
-      technologies: ['Python', 'JavaScript', 'MongoDB'],
-      githubUrl: 'https://github.com/SD187/EduNova-Student-Registration-System',
-      liveUrl: '#',
-      featured: false
-    },
-    {
-      title: 'RhythmReplay React Project',
-      description: 'Music playlist web app to browse and manage favorite songs with an interactive interface.',
-      image: '/placeholder.svg',
-      technologies: ['React', 'JavaScript'],
-      githubUrl: 'https://github.com/ICT-Courses/ict2233-ca-01-Dimalka-Balasooriya',
-      liveUrl: '#',
-      featured: false
-    }
-  ];
+  const projects = [  ];
+
+
 
   return (
     <section className="py-20 bg-gradient-to-b from-background to-muted/10">

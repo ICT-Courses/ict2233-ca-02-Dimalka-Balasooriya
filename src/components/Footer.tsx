@@ -13,7 +13,7 @@ const Footer = () => {
 
   const socialLinks = [
     { icon: Github, href: 'https://github.com/Dimalka-Balasooriya', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://www.linkedin.com/in/dimalka-balasooriyab04430312', label: 'LinkedIn' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/dimalka-balasooriyab04430312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', label: 'LinkedIn' },
     { icon: Mail, href: 'mailto:dntbalasooriya@gmail.com', label: 'Email' },
   ];
 
@@ -27,11 +27,11 @@ const Footer = () => {
               <div className="p-2 rounded-lg bg-gradient-to-r from-primary to-accent text-primary-foreground">
                 <Code2 className="h-6 w-6" />
               </div>
-              <span className="text-2xl font-bold gradient-text">Dimalka Nethmini</span>
+              <span className="text-2xl font-bold gradient-text">Dimalka Balasooriya</span>
             </div>
             <p className="text-muted-foreground max-w-md">
-              Software Engineering Student passionate about creating beautiful, 
-              functional web applications with React.js and modern technologies.
+              I’m Dimalka Balasooriya, an IT undergraduate at the University of Sri Jayewardenepura
+              following a BSc in Information Technology.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (
@@ -87,7 +87,7 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-border/50">
           <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} Dimalka Nethmini. All rights reserved.
+              © {currentYear} Dimalka Balasooriya. All rights reserved.
             </p>
             <p className="text-sm text-muted-foreground flex items-center">
               Made with using React & Tailwind CSS

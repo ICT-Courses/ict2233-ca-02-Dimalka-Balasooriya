@@ -64,8 +64,8 @@ const About = () => {
             <div className="space-y-4">
               <div>
                 <h4 className="font-semibold text-foreground mb-2">Education</h4>
-                <p className="text-muted-foreground">BSc (Hons) in ICT</p>
-                <p className="text-sm text-muted-foreground">University of Sri Jayewardenepura (2024–2028)</p>
+                <p className="text-muted-foreground">BSC (Hons) in ICT in University of Sri Jayewardhenepura</p>
+                <p className="text-sm text-muted-foreground">Year of Study (2024-2028)</p>
               </div>
               <div>
                 <h4 className="font-semibold text-foreground mb-2">Location</h4>

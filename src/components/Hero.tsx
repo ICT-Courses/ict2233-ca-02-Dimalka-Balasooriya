@@ -29,7 +29,6 @@ const Hero = () => {
                   alt="Profile"
                   className="w-28 h-28 rounded-full object-cover"
                 />
-                
               </div>
             </div>
           </div>
@@ -38,7 +37,7 @@ const Hero = () => {
           {/* Main Heading */}
           <div className="fade-in-delay space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold text-white typing-animation">
-              Hi, I'm <span className="text-white">Dimalka Nethmini</span>
+              Hi, I'm <span className="text-white">Dimalka Balasooriya</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
               Software Engineering Student passionate about creating beautiful,
