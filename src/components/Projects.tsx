@@ -4,7 +4,38 @@ import { Badge } from '@/components/ui/badge';
 import { Github, ExternalLink, Code2 } from 'lucide-react';
 
 const Projects = () => {
-  const projects = [  ];
+  const projects = [
+    {
+      title: 'Café Management System',
+      description:
+        'I developed a Café Management System using Visual Studio WinForms. The system helps manage daily café operations such as adding, updating, and removing menu items, placing customer orders, and calculating totals. It provides a simple and user-friendly interface to improve efficiency and accuracy in order handling.',
+      image: '/placeholder.svg', // replace with actual screenshot later
+      technologies: ['C#', 'WinForms', 'Visual Studio'],
+      githubUrl: 'https://github.com/ICT-Courses/application-development-ca1-DimalkaBalasooriya',
+      liveUrl: '#',
+      featured: true,
+    },
+    {
+      title: 'EduNova Student Registration System',
+      description:
+        'EduNova Student Registration System is a group project developed using VS Code with Python, JavaScript, and MongoDB. The system simplifies student enrollment by replacing manual registration with an online platform, making the process faster, more accurate, and user-friendly.',
+      image: '/placeholder.svg', // replace with actual screenshot later
+      technologies: ['Python', 'JavaScript', 'MongoDB'],
+      githubUrl: 'https://github.com/SD187/EduNova-Student-Registration-System',
+      liveUrl: '#',
+      featured: false,
+    },
+    {
+      title: 'RhythmReplay React Project',
+      description:
+        'A React-based project that showcases interactive UI features and modern web development practices. Designed for smooth user experience and scalability.',
+      image: '/placeholder.svg', // replace with actual screenshot later
+      technologies: ['React.js', 'JavaScript', 'Tailwind CSS'],
+      githubUrl: '#',
+      liveUrl: '#',
+      featured: false,
+    },
+  ];
 
 
 
