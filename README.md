@@ -47,3 +47,5 @@ Project Structure
 - `src/components/ui/` - shadcn/ui component library
 - `src/hooks/` - Custom React hooks
 - `src/lib/` - Utility functions
+
+- https://ict-courses.github.io/ict2233-ca-02-Dimalka-Balasooriya/ deploy link
