@@ -1,4 +1,5 @@
 import Navbar from '@/components/Navbar';
+import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
 const ContactPage = () => {
@@ -6,10 +7,7 @@ const ContactPage = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
       <main className="pt-16">
-        <div className="max-w-3xl mx-auto px-4 py-20 text-center text-muted-foreground">
-          <h1 className="text-3xl font-bold mb-4">Contact</h1>
-          <p>Coming soon.</p>
-        </div>
+        <Contact />
       </main>
       <Footer />
     </div>
