@@ -39,6 +39,7 @@ How can I deploy this project?
 
 You can deploy this project to any static hosting service like Vercel, Netlify, or GitHub Pages.
 
+
 Project Structure
 
 - `src/components/` - Reusable React components
